@@ -14,7 +14,9 @@ dependencies:
 
   # SmartLock BLE SDK — 本地开发副本，方便修改测试
   smartlock_ble_sdk:
-    path: ../client_demo_sdk
+    git:
+      url: https://github.com/zongren86/smartlock-ble-sdk.git
+      ref: main
 
   # BLE 权限（app 层需声明以触发 Android 权限插件）
   flutter_blue_plus: ^1.32.7
